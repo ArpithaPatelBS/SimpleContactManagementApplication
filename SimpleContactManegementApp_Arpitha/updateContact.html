@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+		<script src="index.js" type="text/javascript"></script>
+		<script src="/socket.io/socket.io.js" type="text/javascript"></script>
+		<!-- Including "index.css in HTML-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">		
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+		<div id="page-wrap">
+			<h1 class="header">Update Contact Page </h1>
+			<form class="form-horizontal" role="form">
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="name">Name:</label>
+				  <div class="col-sm-10">
+					<input type="input" class="form-control"  style="width:600px;" id="name" placeholder="Enter new contact name">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="address1">Address:</label>
+				  <div class="col-sm-10">          
+					<input type="input" class="form-control" style="width:600px;" id="address1" placeholder="Enter contact address">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="city">City:</label>
+				  <div class="col-sm-10">          
+					<input type="input" class="form-control" style="width:600px;" id="city" placeholder="Enter contact city">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="phoneNumber">Phone Number:</label>
+				  <div class="col-sm-10">          
+					<input type="input" class="form-control" style="width:600px;" id="phoneNumber" placeholder="Enter contact phone number">
+				  </div>
+				</div>				
+		    </form>
+			<div class="msgBar" id="divErrorStatus">
+				<p class="errorMsg"><i></i><span id="divErrorMsg"></span></p>
+			</div>
+			<div class="submit-button">        
+				  <div class="col-sm-offset-2 col-sm-10">
+					<button type="button" id="buttonUpdate" class="btn btn-primary">Update</button>
+				  </div>
+			</div>
+			
+		</div>
+	</body>
+</html>

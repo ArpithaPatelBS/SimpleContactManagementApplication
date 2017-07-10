@@ -1,0 +1,46 @@
+/*HTML styles file which contains all the styles that are needed for the project*/
+body{
+}
+h1.header
+{
+    height: 60px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align: center;
+	align-items: center;
+}
+
+.filterSlector
+{
+	height:100px;
+}
+
+.form-horizontal
+{
+	margin-left:200px;
+    text-align: center;
+	align-items: center;
+}
+.submit-button
+{
+margin-left:-200px;
+    text-align: center;
+	align-items: center;
+}
+
+.dropdown-list
+{	
+	cursor:pointer;
+}
+
+#page-wrap-delete
+{
+	width:70%;
+	align-items: center;
+	margin-left:200px;
+}
+
+#buttonDelete
+{
+	margin-left:200px;
+}
